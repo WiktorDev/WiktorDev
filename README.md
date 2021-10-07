@@ -18,5 +18,5 @@
 <br>
 <br>
 <h3 align="left">WakaTime stats:</h3>
-<img src="https://github.com/WiktorDev/WiktorDev/blob/master/images/codeStats.svg" alt="Alternative Text"/>
+<img src="https://github.com/tariksahni/tariksahni/blob/master/codeStats.svg" alt="Alternative Text"/>
 
