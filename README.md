@@ -15,3 +15,7 @@
    <img src="https://i.imgur.com/5M2hirY.png" alt="InteliJ idea" width="60" height="60"/>
    <img src="https://i.imgur.com/Bvh0zpZ.png" alt="Visual Studio Code" width="60" height="60"/>
 </p>
+<br>
+<br>
+<h3 align="left">WakaTime stats:</h3>
+<img align="left" width="400px" src="https://github-readme-stats.vercel.app/api/wakatime?username=WiktorDev&show_icons=true" />
