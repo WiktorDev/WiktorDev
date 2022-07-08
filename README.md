@@ -19,7 +19,3 @@
    <img src="https://i.imgur.com/Bvh0zpZ.png" alt="Visual Studio Code" width="60" height="60"/>
 </p>
 <br>
-<br>
-<h3 align="left">WakaTime stats:</h3>
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=wiktordev&show_icons=true" alt="Alternative Text"/>
-
