@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 - 🔭 I’m currently working on [yShop](https://yshop.pl)
-- 🌱 I’m currently learning Java, JavaScript, Vue.js
+- 🌱 I’m currently learning TypeScript, Nest.JS, Vue.js
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
