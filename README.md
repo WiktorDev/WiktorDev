@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Wiktor Wilk</h1>
-<h3 align="center">A Junior Java and Web Developer from Poland.</h3>
+<p align="center">Hi 👋, I'm Wiktor Wilk</p>
+<p align="center">A Junior Java and Web Developer from Poland.</p>
 
 - 🔭 I’m currently working on [yShop](https://yshop.pl)
 - 🌱 I’m currently learning TypeScript, Nest.JS, Vue.js
