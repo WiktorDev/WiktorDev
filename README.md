@@ -1,8 +1,5 @@
-<p align="center" style="font-size: 500px">Hi 👋, I'm Wiktor Wilk</p>
+<h3 align="center">Hi 👋, I'm Wiktor Wilk</h3>
 <p align="center">A Junior Java and Web Developer from Poland.</p>
-<center>
-   <h1>Hi 👋, I'm Wiktor Wilk</h1>
-</center>
 
 
 - 🔭 I’m currently working on [yShop](https://yshop.pl)
