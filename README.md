@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Wiktor Wilk</h1>
 <h3 align="center">A Junior Java and Web Developer from Poland.</h3>
 
-<p align="center"> 
-	<img src="https://komarev.com/ghpvc/?username=WiktorDev&label=Wyświetlenia%20profilu&color=0e75b6&style=plastic" alt="Verciak" /> 
-</p>
+<a href="https://wakatime.com/@ponurakk">
+  <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=wiktordev&langs_count=10&theme=dark&layout=compact&custom_title=Last%207%20days...&border_radius=10&range=last_7_days" />
+</a>
 
 - 🔭 I’m currently working on [yShop](https://yshop.pl)
 - 🌱 I’m currently learning TypeScript, Nest.JS, Vue.js
