@@ -1,4 +1,4 @@
-<h3 align="center">Hi 👋, I'm Wiktor Wilk</h3>
+<h1 align="center"><p>Hi 👋, I'm Wiktor Wilk</p></h1>
 <p align="center">A Junior Java and Web Developer from Poland.</p>
 
 
