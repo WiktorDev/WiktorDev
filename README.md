@@ -1,7 +1,7 @@
 <p align="center" style="font-size: 500px">Hi 👋, I'm Wiktor Wilk</p>
 <p align="center">A Junior Java and Web Developer from Poland.</p>
 <center>
-   # Hi 👋, I'm Wiktor Wilk
+   <h1>Hi 👋, I'm Wiktor Wilk</h1>
 </center>
 
 
