@@ -1,4 +1,4 @@
-<p align="center" style="font-size: large">Hi 👋, I'm Wiktor Wilk</p>
+<p align="center" style="font-size: 500px">Hi 👋, I'm Wiktor Wilk</p>
 <p align="center">A Junior Java and Web Developer from Poland.</p>
 
 - 🔭 I’m currently working on [yShop](https://yshop.pl)
