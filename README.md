@@ -3,6 +3,8 @@
 - 🔭 I’m currently working on [yShop](https://yshop.pl)
 - 🌱 I’m currently learning TypeScript, Nest.JS, Vue.js
 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=contribs,prs)
+
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="60" height="60"/>
