@@ -3,7 +3,7 @@
 - 🔭 I’m currently working on [yShop](https://yshop.pl)
 - 🌱 I’m currently learning TypeScript, Nest.JS, Vue.js
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=contribs,prs)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=wiktordev&hide=contribs,prs)
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
