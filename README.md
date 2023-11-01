@@ -4,7 +4,7 @@
 <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=wiktordev&langs_count=10&theme=dark&layout=compact&custom_title=Last%207%20days...&border_radius=10&range=last_7_days" />
 
 - 🔭 I’m currently working on [yShop](https://yshop.pl)
-- 🌱 I’m currently learning TypeScript, Nest.JS, Vue.js
+- 🌱 I’m currently learning Kotlin, ktor, nuxt.js
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=wiktordev&hide=contribs,prs)
 
