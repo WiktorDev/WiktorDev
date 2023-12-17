@@ -26,7 +26,7 @@
 <br><br>
 
 <p align="center">
-  <img alt="Java" src="https://img.shields.io/badge/-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img alt="Java" src="https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
   <img alt="Javalin" src="https://img.shields.io/badge/javalin-008CBB?style=for-the-badge&logo=openjdk&logoColor=white" />
    <img alt="Kotlin" src="https://img.shields.io/badge/kotlin-AB29EB?style=for-the-badge&logo=kotlin&logoColor=white" />
    <img alt="Ktor" src="https://img.shields.io/badge/ktor-FF8800?style=for-the-badge&logo=kotlin&logoColor=white" />
