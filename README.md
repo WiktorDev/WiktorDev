@@ -9,7 +9,7 @@
    <img alt="Kotlin" src="https://img.shields.io/badge/kotlin-AB29EB?style=flat-square&logo=kotlin&logoColor=white" />
    <img alt="Ktor" src="https://img.shields.io/badge/ktor-FF8800?style=flat-square&logo=kotlin&logoColor=white" />
    <img alt="gradle" src="https://img.shields.io/badge/gradle-02303A?style=flat-square&logo=gradle&logoColor=white" /> 
-   <img alt="go" src="https://img.shields.io/badge/go-00AED8?style=flat-square&logo=go&logoColor=white" /> 
+   <img alt="go" src="https://img.shields.io/badge/golang-00AED8?style=flat-square&logo=go&logoColor=white" /> 
 
    <img alt="Typescript" src="https://img.shields.io/badge/-Typescript-3178C6?style=flat-square&logo=Typescript&logoColor=white" />
    <img alt="Javascript" src="https://img.shields.io/badge/-Javascript-F7DF1E?style=flat-square&logo=Javascript&logoColor=white" />
