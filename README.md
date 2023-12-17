@@ -33,7 +33,7 @@
    <img alt="Ktor" src="https://img.shields.io/badge/ktor-FF8800?style=flat-square&logo=kotlin&logoColor=white" />
    <img alt="gradle" src="https://img.shields.io/badge/gradle-02303A?style=flat-square&logo=gradle&logoColor=white" /> 
    <img alt="go" src="https://img.shields.io/badge/go-00AED8?style=flat-square&logo=go&logoColor=white" /> 
-   
+   <br>
    <img alt="Typescript" src="https://img.shields.io/badge/-Typescript-3178C6?style=flat-square&logo=Typescript&logoColor=white" />
    <img alt="Javascript" src="https://img.shields.io/badge/-Javascript-F7DF1E?style=flat-square&logo=Javascript&logoColor=white" />
    <img alt="NodeJs" src="https://img.shields.io/badge/-Nodejs-339933?style=flat-square&logo=Node.js&logoColor=white" />
@@ -41,7 +41,7 @@
    <img alt="Vue.js" src="https://img.shields.io/badge/-Vuejs-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" />
    <img alt="TailwindCss" src="https://img.shields.io/badge/-TailwindCss-06B6D4?style=flat-square&logo=TailwindCss&logoColor=white" />
    <img alt="npm" src="https://img.shields.io/badge/NPM-CC3534?style=flat-square&logo=npm&logoColor=white" /> 
-   
+   <br>
    <img alt="MySQL" src="https://img.shields.io/badge/MySQL-015F8B?style=flat-square&logo=mysql&logoColor=white" />
    <img alt="Proxmox" src="https://img.shields.io/badge/-Proxmox-E57000?style=flat-square&logo=Proxmox&logoColor=white" />
    <img alt="Qemu" src="https://img.shields.io/badge/-Qemu-FF6600?style=flat-square&logo=Qemu&logoColor=white" />
