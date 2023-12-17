@@ -1,6 +1,7 @@
 <h1 align="center">Hi 👋, I'm Wiktor</h1>
-<h3 align="center">A Junior Java and Web Developer from Poland.</h3>
-Fullstack devloper from <b>Rzeszów/Poland</b>
+Junior Fullstack devloper from <b>Rzeszów/Poland</b>
+<br>
+
 ### Things I code with
 <p align="center">
    <!-- for-the-badge -->
