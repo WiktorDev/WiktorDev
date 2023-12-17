@@ -40,6 +40,11 @@
       <td>10.07.2021</td>
       <td>TypeScript, NestJS, MySQL, VueJS, TailwindCSS</td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/WiktorDev/node-payments-lib3.0"><b>node-payments-lib3.0</b></a></td>
+      <td>22.01.2023</td>
+      <td>NodeJS, TypeScript, Axios</td>
+    </tr>
   </tbody>
 </table>
 
