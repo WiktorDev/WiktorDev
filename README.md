@@ -25,7 +25,8 @@
 </p>
 <br><br>
 
-<p>
+### Things I code with
+<p align="center">
    <!-- for-the-badge -->
   <img alt="Java" src="https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
   <img alt="Javalin" src="https://img.shields.io/badge/javalin-008CBB?style=flat-squaree&logo=openjdk&logoColor=white" />
