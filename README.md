@@ -28,7 +28,6 @@
    <img alt="JetBrains" src="https://img.shields.io/badge/Jetbrains%20Tools-000000?style=flat-square&logo=jetbrains&logoColor=white" />
    <img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
 </p>
-<br>
 
 ### My Projects
 <table>
