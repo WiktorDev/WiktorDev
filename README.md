@@ -24,6 +24,23 @@
    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jetbrains/jetbrains-original.svg" alt="JetBrains" width="60" height="60" />
 </p>
 <br><br>
+### My Projects
+<table>
+  <thead align="center">
+    <tr border: none;>
+      <td><b>🎁 Project</b></td>
+      <td><b>🕓 Start date</b></td>
+      <td><b>📚 Technologies</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://yshop.pl"><b>yshop.pl - Free ItemShop for game servers</b></a></td>
+      <td>10.07.2021</td>
+      <td>TypeScript, NestJS, MySQL, VueJS, TailwindCSS</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Things I code with
 <p align="center">
