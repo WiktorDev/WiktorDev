@@ -24,6 +24,7 @@
    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jetbrains/jetbrains-original.svg" alt="JetBrains" width="60" height="60" />
 </p>
 <br><br>
+
 ### My Projects
 <table>
   <thead align="center">
