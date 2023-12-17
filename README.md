@@ -25,7 +25,7 @@
 </p>
 <br><br>
 
-<p align="center">
+<p>
    <!-- for-the-badge -->
   <img alt="Java" src="https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
   <img alt="Javalin" src="https://img.shields.io/badge/javalin-008CBB?style=flat-squaree&logo=openjdk&logoColor=white" />
@@ -48,6 +48,4 @@
    <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
    <img alt="Debian" src="https://img.shields.io/badge/-Debian-A81D33?style=flat-square&logo=Debian&logoColor=white" />
    <img alt="Nginx" src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
-  <br/>
-
 </p>
