@@ -42,7 +42,7 @@
    <img alt="Qemu" src="https://img.shields.io/badge/-Qemu-FF6600?style=for-the-badge&logo=Qemu&logoColor=white" />
    <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
    <img alt="Debian" src="https://img.shields.io/badge/-Debian-A81D33?style=for-the-badge&logo=Debian&logoColor=white" />
-
+   <img alt="Nginx" src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
   
   <br/>
 
