@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Wiktor</h1>
-Junior Fullstack devloper from <b>Rzeszów/Poland</b>
+<p align="center">Junior Fullstack devloper from <b>Rzeszów/Poland</b></p>
 <br>
 
 ### Things I code with
