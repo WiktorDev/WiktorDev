@@ -45,6 +45,11 @@
       <td>22.01.2023</td>
       <td>NodeJS, TypeScript, Axios</td>
     </tr>
+    <tr>
+      <td><a href="https://gdziebusik.pl"><b>gdziebusik.pl</b></a></td>
+      <td>01.12.2023</td>
+      <td>Kotlin, Ktor, Svelte, TailwindCSS, Flutter, Dart</td>
+    </tr>
   </tbody>
 </table>
 
