@@ -25,6 +25,8 @@
    <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
    <img alt="Debian" src="https://img.shields.io/badge/-Debian-A81D33?style=flat-square&logo=Debian&logoColor=white" />
    <img alt="Nginx" src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
+   <img alt="JetBrains" src="https://img.shields.io/badge/Jetbrains%20Tools-000000?style=flat-square&logo=jetbrains&logoColor=white" />
+   <img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
 </p>
 <br>
 
