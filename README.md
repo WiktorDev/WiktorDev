@@ -36,6 +36,8 @@
    <img alt="NestJs" src="https://img.shields.io/badge/NestJs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
    <img alt="Vue.js" src="https://img.shields.io/badge/-Vuejs-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white" />
    <img alt="TailwindCss" src="https://img.shields.io/badge/-TailwindCss-06B6D4?style=for-the-badge&logo=TailwindCss&logoColor=white" />
+
+   <img alt="MySQL" src="https://img.shields.io/badge/MySQL-015F8B?style=for-the-badge&logo=mysql&logoColor=white" />
    <img alt="Proxmox" src="https://img.shields.io/badge/-Proxmox-E57000?style=for-the-badge&logo=Proxmox&logoColor=white" />
    <img alt="Qemu" src="https://img.shields.io/badge/-Qemu-FF6600?style=for-the-badge&logo=Qemu&logoColor=white" />
    <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
