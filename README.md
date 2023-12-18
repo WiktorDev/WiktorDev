@@ -17,6 +17,7 @@
    <img alt="NestJs" src="https://img.shields.io/badge/NestJs-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
    <img alt="Vue.js" src="https://img.shields.io/badge/-Vuejs-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" />
    <img alt="Nuxt.js" src="https://img.shields.io/badge/-Nuxtjs-447A6B?style=flat-square&logo=nuxt.js&logoColor=white" />
+   <img alt="axios" src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white" />
    <img alt="TailwindCss" src="https://img.shields.io/badge/-TailwindCss-06B6D4?style=flat-square&logo=TailwindCss&logoColor=white" />
    <img alt="npm" src="https://img.shields.io/badge/NPM-CC3534?style=flat-square&logo=npm&logoColor=white" /> 
 
