@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Wiktor</h1>
-<p align="center">Junior Fullstack devloper from <b>Rzeszów/Poland</b></p>
+<p align="center">Junior Fullstack developer from <b>Rzeszów/Poland</b></p>
 
 ### Things I code with
 <p align="center">
