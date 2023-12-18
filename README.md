@@ -21,6 +21,7 @@
    <img alt="TailwindCss" src="https://img.shields.io/badge/-TailwindCss-06B6D4?style=flat-square&logo=TailwindCss&logoColor=white" />
    <img alt="npm" src="https://img.shields.io/badge/NPM-CC3534?style=flat-square&logo=npm&logoColor=white" /> 
 
+   <img alt="JSON" src="https://img.shields.io/badge/JSON-3D3D3D?style=flat-square&logo=json&logoColor=white" />
    <img alt="MySQL" src="https://img.shields.io/badge/MySQL-015F8B?style=flat-square&logo=mysql&logoColor=white" />
    <img alt="Proxmox" src="https://img.shields.io/badge/-Proxmox-E57000?style=flat-square&logo=Proxmox&logoColor=white" />
    <img alt="Qemu" src="https://img.shields.io/badge/-Qemu-FF6600?style=flat-square&logo=Qemu&logoColor=white" />
