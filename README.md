@@ -61,7 +61,7 @@
     </tr>
     <tr>
       <td><a href="https://exotia.net"><b>exotia.net - minecraft server</b></a></td>
-      <td>01.12.2023 - 07.03.2024</td>
+      <td>01.12.2023 - 07.03.2024 [*]</td>
       <td>Java, MySQL, Rust, VueJS, TailwindCSS, Qemu</td>
     </tr>
   </tbody>
