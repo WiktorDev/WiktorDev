@@ -50,6 +50,14 @@
       <td>TypeScript, NestJS, MySQL, VueJS, TailwindCSS</td>
     </tr>
     <tr>
+      <td><a href="https://loyaltyhub.pl"><b>LoyaltyHub.pl</b></a></td>
+      <td>--.--.2026</td>
+      <td>
+         - test <br>
+         - test
+      </td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/WiktorDev/node-payments-lib3.0"><b>node-payments-lib3.0</b></a></td>
       <td>22.01.2023</td>
       <td>NodeJS, TypeScript, Axios</td>
