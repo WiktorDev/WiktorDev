@@ -48,13 +48,27 @@
       <td><a href="https://yshop.pl"><b>yshop.pl - Free ItemShop for game servers</b></a></td>
       <td>10.07.2021</td>
       <td>TypeScript, NestJS, MySQL, VueJS, TailwindCSS</td>
+      <td>
+         - Dashboard/Home (NuxtJs, TailwindCss, NuxtUi) <br>
+         - Api (NestJS, TypeScript, TypeORM, MySQL, REST) <br>
+         - Templates (PHP, Laravel, Blade, Inertia, Vue)
+      </td>
     </tr>
     <tr>
       <td><a href="https://loyaltyhub.pl"><b>LoyaltyHub.pl</b></a></td>
       <td>--.--.2026</td>
       <td>
-         - test <br>
-         - test
+         - Dashboard (NuxtJs, TailwindCss, NuxtUi) <br>
+         - Api (PHP, Laravel, Sanctum, MySQL, REST) <br>
+         - iOS/Android MobileApp (Flutter, Dart)
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://id.ycode.pl"><b>ycode ID</b></a></td>
+      <td>10.03.2025</td>
+      <td>
+         - PHP, Laravel, Blade
+         - Oauth2 (Google, github, discord, apple, email, passkey)
       </td>
     </tr>
     <tr>
@@ -65,12 +79,17 @@
     <tr>
       <td><a href="https://gdziebusik.pl"><b>gdziebusik.pl</b></a></td>
       <td>01.12.2023</td>
-      <td>Kotlin, Ktor, Svelte, TailwindCSS, Flutter, Dart</td>
+      <td>
+         - GTFS manager (laravel, mariadb, blade)
+         - WebApp (SvelteKit, TailwindCss, Axios)
+         - API (kotlin, ktor)
+         - GTFS Routing (rust, gtfs-file)
+      </td>
     </tr>
     <tr>
       <td><a href="https://exotia.net"><b>exotia.net - minecraft server</b></a></td>
       <td>01.12.2023 - 07.03.2024 [*]</td>
-      <td>Java, MySQL, Rust, VueJS, TailwindCSS, Qemu</td>
+      <td>Java, MySQL, Rust, VueJS, TailwindCSS, Qemu, ProxMox</td>
     </tr>
   </tbody>
 </table>
