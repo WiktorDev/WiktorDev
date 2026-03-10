@@ -66,7 +66,7 @@
       <td><a href="https://id.ycode.pl"><b>ycode ID</b></a></td>
       <td>10.03.2025</td>
       <td>
-         - PHP, Laravel, Blade
+         - PHP, Laravel, Blade<br>
          - Oauth2 (Google, github, discord, apple, email, passkey)
       </td>
     </tr>
@@ -79,9 +79,9 @@
       <td><a href="https://gdziebusik.pl"><b>gdziebusik.pl</b></a></td>
       <td>01.12.2023</td>
       <td>
-         - GTFS manager (laravel, mariadb, blade)
-         - WebApp (SvelteKit, TailwindCss, Axios)
-         - API (kotlin, ktor)
+         - GTFS manager (laravel, mariadb, blade)<br>
+         - WebApp (SvelteKit, TailwindCss, Axios)<br>
+         - API (kotlin, ktor)<br>
          - GTFS Routing (rust, gtfs-file)
       </td>
     </tr>
