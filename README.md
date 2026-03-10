@@ -47,7 +47,6 @@
     <tr>
       <td><a href="https://yshop.pl"><b>yshop.pl - Free ItemShop for game servers</b></a></td>
       <td>10.07.2021</td>
-      <td>TypeScript, NestJS, MySQL, VueJS, TailwindCSS</td>
       <td>
          - Dashboard/Home (NuxtJs, TailwindCss, NuxtUi) <br>
          - Api (NestJS, TypeScript, TypeORM, MySQL, REST) <br>
