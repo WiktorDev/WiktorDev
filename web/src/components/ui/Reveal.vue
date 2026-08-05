@@ -14,20 +14,19 @@ const props = withDefaults(defineProps<Props>(), {
   as: "div",
 });
 
-const { ref, visible } = useReveal<HTMLElement>();
+const { visible } = useReveal<HTMLElement>();
 
 const revealStyle = computed(() => ({
   transitionDelay: `${props.delay}ms`,
 }));
 </script>
-
 <template>
   <component
-      :is="as"
-      ref="ref"
-      :data-visible="visible"
-      :style="revealStyle"
-      :class="['reveal', $props.class]"
+    :is="as"
+    ref="ref"
+    :data-visible="visible"
+    :style="revealStyle"
+    :class="['reveal', $props.class]"
   >
     <slot />
   </component>
