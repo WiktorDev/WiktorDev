@@ -3,6 +3,11 @@ import {usePortfolio} from "../composables/usePortfolio.ts";
 import { ArrowUp } from '@lucide/vue';
 
 const { profile } = usePortfolio()
+const links = [
+  { label: 'GitHub', href: profile.github },
+  { label: 'LinkedIn', href: profile.linkedin },
+  { label: 'Email', href: `mailto:${profile.email}` }
+]
 </script>
 <template>
   <footer class="border-t border-border py-12">
@@ -12,22 +17,16 @@ const { profile } = usePortfolio()
           {{ profile.name }} — Fullstack Developer &amp; Backend Engineer
         </p>
         <p class="mt-2 max-w-md text-sm text-muted-foreground">
-          Designing scalable software, reliable APIs, and production-ready infrastructure.
+          {{ $t('sections.footer.description') }}
         </p>
       </div>
       <div class="flex flex-wrap items-center gap-5">
-        <a :href="profile.github" class="text-sm text-muted-foreground transition-colors hover:text-primary">
-          GitHub
-        </a>
-        <a :href="profile.linkedin" class="text-sm text-muted-foreground transition-colors hover:text-primary">
-          LinkedIn
-        </a>
-        <a :href="`mailto:${profile.email}`" class="text-sm text-muted-foreground transition-colors hover:text-primary">
-          Email
+        <a v-for="link in links" :href="link.href" class="text-sm text-muted-foreground transition-colors hover:text-primary">
+          {{ link.label }}
         </a>
         <a href="/#home" class="inline-flex items-center gap-2 rounded-lg border border-border px-3 py-2 font-mono text-[11px] text-muted-foreground transition-colors hover:border-primary/40 hover:text-primary">
           <ArrowUp class="size-3.5" />
-          Back to top
+          {{ $t('sections.footer.backTop') }}
         </a>
       </div>
     </div>

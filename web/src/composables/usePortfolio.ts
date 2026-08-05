@@ -1,4 +1,7 @@
+import {useI18n} from "vue-i18n";
+
 export function usePortfolio() {
+  const { t, tm } = useI18n()
   return {
     profile: {
       name: 'Wiktor Wilk',
@@ -6,51 +9,20 @@ export function usePortfolio() {
       role: "Fullstack Developer & Backend Engineer",
       location: 'Rzeszów, Poland',
       availability: "Available for selected projects",
-      tagline: "I build backend systems and mobile applications for businesses.",
-      intro: "Fullstack developer focused on backend engineering, APIs and cloud infrastructure. I help companies turn complex requirements into reliable software — from the database and API layer to the mobile app people actually use.",
+      tagline: t('profile.tagline'),
+      intro: t('profile.intro'),
       email: 'hello@wilkwiktor.code',
       linkedin: "[YOUR LINKEDIN URL]",
       github: "[YOUR GITHUB URL]",
       whatsapp: "[YOUR WHATSAPP URL]",
       heroBadges: ["Laravel", "NestJS", "Node.js", "Vue", "Nuxt", "PostgreSQL"],
-      stats: [
-        { value: "4+", label: "Years building software" },
-        { value: "20+", label: "Projects delivered" },
-        { value: "100%", label: "Ownership, end to end" },
-      ],
+      stats: tm('profile.stats'),
     },
     about: {
-      paragraphs: [
-        "I'm a fullstack developer who spends most of the day in the backend: designing APIs, modelling data, and making sure systems keep working when traffic, teams and requirements grow.",
-        "I work with businesses that need more than a prototype — internal platforms, customer portals, integrations and mobile applications that have to be maintained for years. I take a project from architecture through implementation to deployment and monitoring.",
-        "I care about clear structure, readable code, honest estimates and software that is easy to hand over.",
-      ],
-      facts: [
-        { label: "Focus", value: "Backend, APIs, mobile apps" },
-        { label: "Works with", value: "Startups, agencies, product teams" },
-        { label: "Engagement", value: "Freelance & long-term collaboration" },
-      ],
+      paragraphs: tm('sections.about.paragraphs'),
+      facts: tm('sections.about.facts'),
     },
-    focusAreas: [
-      {
-        id: "backend",
-        title: "Backend & API development",
-        body: "Secure, well-structured services with clean domain boundaries, authentication, integrations and background processing.",
-        points: ["REST APIs", "Auth & permissions", "Integrations", "Background jobs"],
-      },
-      {
-        id: "mobile",
-        title: "Mobile applications",
-        body: "Business-facing mobile apps connected to solid APIs — from offline-friendly data flows to release pipelines on both stores.",
-        points: ["Cross-platform apps", "API-driven UX", "Push & offline sync", "Store releases"],
-      },
-      {
-        id: "cloud",
-        title: "Cloud & delivery",
-        body: "Infrastructure and pipelines that make releases boring: containerised environments, automated deploys and monitoring.",
-        points: ["Docker & Linux", "CI/CD", "Cloudflare & Nginx", "Monitoring"],
-      },
-    ],
+    focusAreas: tm('sections.about.focusAreas') as any[],
     projects: [
       {
         image: 'https://doth.pl/img/realizacje/kpbat/1.webp',

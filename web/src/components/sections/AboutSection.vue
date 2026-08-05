@@ -8,7 +8,10 @@ const { about, focusAreas } = usePortfolio()
 <template>
   <section id="about" class="relative py-24 sm:py-28">
     <div class="mx-auto w-full max-w-5xl px-5 sm:px-8">
-      <SectionHeading eyebrow="about" title="Who I am, and how I work."/>
+      <SectionHeading
+        :eyebrow="$t('sections.about.eyebrow')"
+        :title="$t('sections.about.title')"
+      />
       <div class="mt-12 grid gap-10 lg:grid-cols-[1.4fr_0.9fr]">
         <Reveal>
           <div class="space-y-5 text-base leading-relaxed text-muted-foreground">

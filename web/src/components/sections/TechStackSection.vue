@@ -9,9 +9,9 @@ const {techCategories} = usePortfolio()
   <section id="stack" class="relative py-24 sm:py-28">
     <div class="mx-auto w-full max-w-5xl px-5 sm:px-8">
       <SectionHeading
-        eyebrow="stack"
-        title="Technologies and tools I work with."
-        intro="The toolset I reach for daily — chosen for maintainability, not novelty."
+        :eyebrow="$t('sections.stack.eyebrow')"
+        :title="$t('sections.stack.title')"
+        :intro="$t('sections.stack.intro')"
       />
       <div class="mt-12 grid gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-2">
         <Reveal v-for="(category, i) in techCategories" :key="category.id" :delay="i * 70">
