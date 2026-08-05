@@ -14,7 +14,8 @@ const props = withDefaults(defineProps<Props>(), {
   as: "div",
 });
 
-const { visible } = useReveal<HTMLElement>();
+// @ts-expect-error TS6133
+const { ref: elementRef, visible } = useReveal<HTMLElement>();
 
 const revealStyle = computed(() => ({
   transitionDelay: `${props.delay}ms`,
@@ -23,7 +24,7 @@ const revealStyle = computed(() => ({
 <template>
   <component
     :is="as"
-    ref="ref"
+    ref="elementRef"
     :data-visible="visible"
     :style="revealStyle"
     :class="['reveal', $props.class]"

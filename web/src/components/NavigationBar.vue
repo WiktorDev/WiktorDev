@@ -5,8 +5,8 @@
   >
     <div class="mx-auto flex h-16 w-full max-w-7xl items-center justify-between gap-6 px-5 sm:px-8">
       <a href="/#home" class="group flex items-center gap-3">
-        <span class="grid size-9 place-items-center rounded-lg border border-primary/30 bg-primary/10 font-mono text-sm font-semibold text-primary">
-          {{ profile.monogram }}
+        <span class="grid size-9 place-items-center rounded-lg  bg-primary/10 font-mono text-sm font-semibold text-primary">
+          <img :src="logo" :alt="profile.monogram" class="rounded-lg size-9">
         </span>
         <span class="hidden text-sm font-semibold tracking-tight sm:block">{{ profile.name }}</span>
       </a>
@@ -62,6 +62,7 @@ import { Menu, X } from '@lucide/vue';
 import ThemeToggle from "./ThemeToggle.vue";
 import {usePortfolio} from "../composables/usePortfolio.ts";
 import LanguageSelector from "./LanguageSelector.vue";
+import logo from '../assets/logo.png';
 
 const { profile } = usePortfolio();
 const scrolled = ref<boolean>(false);

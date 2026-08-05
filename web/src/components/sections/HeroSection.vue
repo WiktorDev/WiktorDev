@@ -2,6 +2,7 @@
 import Reveal from "../ui/Reveal.vue";
 import { MapPin, ArrowRight } from '@lucide/vue';
 import {usePortfolio} from "../../composables/usePortfolio.ts";
+import logo from "../../assets/logo.png";
 
 const { profile } = usePortfolio()
 </script>
@@ -13,8 +14,8 @@ const { profile } = usePortfolio()
     <div class="relative mx-auto w-full max-w-4xl px-5 pb-20 sm:px-8 sm:pb-28">
       <Reveal>
         <div class="flex items-center gap-4">
-          <span class="grid size-14 place-items-center rounded-2xl border border-primary/30 bg-primary/10 font-mono text-lg font-semibold text-primary">
-            {{ profile.monogram }}
+          <span class="grid size-14 place-items-center rounded-lg  bg-primary/10 font-mono text-sm font-semibold text-primary">
+            <img :src="logo" :alt="profile.monogram" class="rounded-lg size-14">
           </span>
           <div>
             <p class="text-sm font-semibold">{{ profile.name }}</p>
