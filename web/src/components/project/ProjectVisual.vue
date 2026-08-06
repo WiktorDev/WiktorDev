@@ -1,10 +1,9 @@
 <script setup lang="ts">
 import {computed} from "vue";
-import ProjectStatusBadge from "@/components/project/ProjectStatusBadge.vue";
-
+import ProjectStatusBadge from "./ProjectStatusBadge.vue";
 const props = defineProps<{ project: any }>()
 
-const projectImages = import.meta.glob('@/assets/projects/*.png', {
+const projectImages = import.meta.glob('/src/assets/projects/*.png', {
   eager: true,
   import: 'default',
 }) as Record<string, string>

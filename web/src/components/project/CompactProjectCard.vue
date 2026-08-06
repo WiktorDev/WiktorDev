@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {ArrowUpRight} from "@lucide/vue";
 import ProjectVisual from "./ProjectVisual.vue";
-import type {Project} from "@/types";
+import type {Project} from "../../types";
 
 defineProps<{
   project: Project;

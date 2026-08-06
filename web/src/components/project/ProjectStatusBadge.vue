@@ -5,8 +5,8 @@
   </span>
 </template>
 <script setup lang="ts">
-import type {ProjectStatus} from "@/types";
 import {computed} from "vue";
+import type {ProjectStatus} from "../../types";
 
 const props = defineProps<{
   status: ProjectStatus;

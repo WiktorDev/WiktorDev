@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import SectionHeading from "../ui/SectionHeading.vue";
 import Reveal from "../ui/Reveal.vue";
-import {usePortfolio} from "@/composables/usePortfolio.ts";
 import {computed, ref} from "vue";
 import ProjectDetails from "../project/ProjectDetails.vue";
 import FeaturedProjectCard from "../project/FeaturedProjectCard.vue";
 import CompactProjectCard from "../project/CompactProjectCard.vue";
+import {usePortfolio} from "../../composables/usePortfolio.ts";
 
 const active = ref();
 const { projects } = usePortfolio();
