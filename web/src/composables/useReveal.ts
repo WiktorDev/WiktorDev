@@ -1,21 +1,17 @@
 import { onBeforeUnmount, onMounted, ref, watch } from "vue";
 
-export function useReveal<T extends HTMLElement = HTMLDivElement>(
-  threshold = 0.15,
-) {
+export function useReveal<T extends HTMLElement = HTMLDivElement>(threshold = 0.15) {
   const element = ref<T | null>(null);
   const visible = ref(false);
 
   let observer: IntersectionObserver | null = null;
 
   const observe = (el: T | null) => {
-    // Wyczyść poprzedni observer, jeśli element się zmienił
     observer?.disconnect();
     observer = null;
 
     if (!el) return;
 
-    // Fallback dla środowisk bez IntersectionObserver
     if (typeof IntersectionObserver === "undefined") {
       visible.value = true;
       return;
@@ -41,16 +37,9 @@ export function useReveal<T extends HTMLElement = HTMLDivElement>(
     observer.observe(el);
   };
 
-  onMounted(() => {
-    observe(element.value);
-  });
-
-  // Obsługa sytuacji, gdy ref zostanie przypięty
-  // lub zmieni się dynamicznie po zamontowaniu komponentu
+  onMounted(() => observe(element.value));
   watch(element, (el) => {
-    if (el) {
-      observe(el);
-    }
+    if (el) observe(el);
   });
 
   onBeforeUnmount(() => {

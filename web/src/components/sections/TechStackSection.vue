@@ -3,7 +3,7 @@ import SectionHeading from "../ui/SectionHeading.vue";
 import Reveal from "../ui/Reveal.vue";
 import {usePortfolio} from "../../composables/usePortfolio.ts";
 
-const {techCategories} = usePortfolio()
+const { stack } = usePortfolio()
 </script>
 <template>
   <section id="stack" class="relative py-24 sm:py-28">
@@ -14,17 +14,17 @@ const {techCategories} = usePortfolio()
         :intro="$t('sections.stack.intro')"
       />
       <div class="mt-12 grid gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-2">
-        <Reveal v-for="(category, i) in techCategories" :key="category.id" :delay="i * 70">
+        <Reveal v-for="(key, i) in Object.keys(stack)" :key="key" :delay="i * 70">
           <div class="h-full bg-surface/70 p-6 sm:p-7">
             <div class="flex items-baseline justify-between gap-4">
-              <h3 class="text-base font-semibold">{{ category.title }}</h3>
+              <h3 class="text-base font-semibold">{{ $t(`sections.stack.categories.${key}.title`) }}</h3>
               <span class="font-mono text-[11px] text-muted-foreground">
                 {{ String(i + 1).padStart(2, "0") }}
               </span>
             </div>
-            <p class="mt-2 text-sm text-muted-foreground">{{ category.summary }}</p>
+            <p class="mt-2 text-sm text-muted-foreground">{{ $t(`sections.stack.categories.${key}.summary`) }}</p>
             <ul class="mt-5 flex flex-wrap gap-2">
-              <li v-for="item in category.items" class="rounded-md border border-border bg-background/40 px-2.5 py-1 font-mono text-[11px] text-muted-foreground">
+              <li v-for="item in stack[key]" class="rounded-md border border-border bg-background/40 px-2.5 py-1 font-mono text-[11px] text-muted-foreground">
                 {{ item }}
               </li>
             </ul>

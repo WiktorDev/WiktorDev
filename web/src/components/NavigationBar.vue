@@ -12,12 +12,12 @@
       </a>
       <nav class="hidden items-center gap-1 lg:flex">
         <a
-            v-for="link in $tm('navLinks') as any[]"
+            v-for="link in navLinks"
             :key="link.href"
             :href="link.href"
             class="rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:bg-secondary/60 hover:text-foreground"
         >
-          {{ link.label }}
+          {{ $t(`links.${link.key}`) }}
         </a>
       </nav>
 
@@ -46,9 +46,9 @@
 
       <nav v-if="open" class="border-t border-border bg-background/95 px-5 py-4 backdrop-blur-xl lg:hidden">
         <ul class="flex flex-col">
-          <li v-for="link in $tm('navLinks') as any[]" :key="link.href">
+          <li v-for="link in navLinks" :key="link.href">
             <a :href="link.href" @click="open = false" class="block rounded-md px-2 py-3 text-sm text-muted-foreground transition-colors hover:text-foreground">
-              {{ link.label }}
+              {{ $t(`links.${link.key}`) }}
             </a>
           </li>
         </ul>
@@ -64,7 +64,7 @@ import {usePortfolio} from "../composables/usePortfolio.ts";
 import LanguageSelector from "./LanguageSelector.vue";
 import logo from '../assets/logo.png';
 
-const { profile } = usePortfolio();
+const { profile, navLinks } = usePortfolio();
 const scrolled = ref<boolean>(false);
 const open = ref(false);
 

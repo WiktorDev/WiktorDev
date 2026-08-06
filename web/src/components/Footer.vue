@@ -3,6 +3,7 @@ import {usePortfolio} from "../composables/usePortfolio.ts";
 import { ArrowUp } from '@lucide/vue';
 
 const { profile } = usePortfolio()
+
 const links = [
   { label: 'GitHub', href: profile.github },
   { label: 'LinkedIn', href: profile.linkedin },
@@ -14,7 +15,7 @@ const links = [
     <div class="mx-auto flex w-full max-w-7xl flex-col gap-8 px-5 sm:px-8 md:flex-row md:items-end md:justify-between">
       <div>
         <p class="text-sm font-semibold">
-          {{ profile.name }} — Fullstack Developer &amp; Backend Engineer
+          {{ profile.name }} — {{ profile.role }}
         </p>
         <p class="mt-2 max-w-md text-sm text-muted-foreground">
           {{ $t('sections.footer.description') }}

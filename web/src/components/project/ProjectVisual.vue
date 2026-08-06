@@ -1,19 +1,29 @@
 <script setup lang="ts">
-defineProps<{ project: any }>()
+import {computed} from "vue";
+import ProjectStatusBadge from "@/components/project/ProjectStatusBadge.vue";
+
+const props = defineProps<{ project: any }>()
+
+const projectImages = import.meta.glob('@/assets/projects/*.png', {
+  eager: true,
+  import: 'default',
+}) as Record<string, string>
+
+const image = computed(() => {
+  const key = `/src/assets/projects/${props.project.id}.png`
+  return projectImages[key] ?? null
+})
 </script>
 <template>
   <div class="relative aspect-16/10 w-full overflow-hidden rounded-xl border border-border bg-background/70">
-    <template v-if="project.image">
+    <template v-if="image">
       <img
-          :src="project.image"
+          :src="image"
           :alt="`${project.name} project screenshot`"
           loading="lazy"
           class="absolute inset-0 size-full object-cover"
       />
-      <div
-          class="absolute inset-0 bg-gradient-to-t from-background/85 via-background/25 to-background/55"
-          aria-hidden
-      />
+      <div class="absolute inset-0 bg-linear-to-t from-background/85 via-background/25 to-background/55" />
     </template>
     <template v-else>
       <div class="grid-backdrop absolute inset-0 opacity-70" aria-hidden="true"/>
@@ -24,13 +34,11 @@ defineProps<{ project: any }>()
     <div class="relative flex h-full flex-col justify-between p-5">
       <div class="flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
         <span>project {{ project.number }}</span>
-        <span class="flex items-center gap-1.5">
-          <span class="size-1.5 animate-blink rounded-full bg-signal" /> live
-        </span>
+        <ProjectStatusBadge :status="project.status" />
       </div>
 
-      <svg v-if="!project.image" viewBox="0 0 320 120" class="w-full" aria-hidden="true">
-        <g v-for="row in [0,1,2]" key={row}>
+      <svg v-if="!image" viewBox="0 0 320 120" class="w-full" aria-hidden="true">
+        <g v-for="row in [0,1,2]" :key="row">
           <line
               x1="10"
               :y1="20 + row * 40"

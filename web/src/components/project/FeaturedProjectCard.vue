@@ -18,12 +18,12 @@ defineProps<{
 
       <h3 class="mt-5 text-2xl font-semibold sm:text-3xl">{{ project.name }}</h3>
       <p class="mt-3 text-sm leading-relaxed text-muted-foreground sm:text-base">
-        {{ project.description }}
+        {{ $t(`projects.${project.id}.description`)}}
       </p>
 
       <p class="mt-5 rounded-xl border border-border bg-background/40 p-4 text-sm text-foreground/85">
         <span class="mono-label mb-1 block">key result</span>
-        {{ project.highlight }}
+        {{ $t(`projects.${project.id}.highlight`)}}
       </p>
 
       <ul class="mt-5 flex flex-wrap gap-2">
@@ -36,7 +36,7 @@ defineProps<{
           @click="() => onOpen(project)"
           class="mt-7 inline-flex items-center gap-2 rounded-xl border border-primary/30 bg-primary/10 px-5 py-3 text-sm font-semibold text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
       >
-        View case study
+        {{ $t('sections.projects.viewCaseStudy') }}
         <ArrowUpRight class="size-4" />
       </button>
     </div>

@@ -3,7 +3,6 @@ import NavigationBar from "../components/NavigationBar.vue";
 import HeroSection from "../components/sections/HeroSection.vue";
 import AboutSection from "../components/sections/AboutSection.vue";
 import FeaturedProjectsSection from "../components/sections/FeaturedProjectsSection.vue";
-import ExperienceTimelineSection from "../components/sections/ExperienceTimelineSection.vue";
 import TechStackSection from "../components/sections/TechStackSection.vue";
 import ContactSection from "../components/sections/ContactSection.vue";
 import Footer from "../components/Footer.vue";
@@ -15,7 +14,7 @@ import Footer from "../components/Footer.vue";
       <HeroSection/>
       <AboutSection/>
       <FeaturedProjectsSection/>
-      <ExperienceTimelineSection/>
+<!--      <ExperienceTimelineSection/>-->
       <TechStackSection/>
       <ContactSection/>
     </main>
