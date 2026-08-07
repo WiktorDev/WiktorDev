@@ -42,17 +42,17 @@ defineProps<{
           <ArchitectureChain :nodes="project.architecture" class="mb-4" />
           <p class="mt-3">{{ $t(`projects.${project.id}.solution`) }}</p>
         </Block>
-        <Block :title="$t('sections.projects.decisions')">
+        <Block v-if="project.decisions().length" :title="$t('sections.projects.decisions')">
           <List :items="project.decisions()" />
         </Block>
-        <Block :title="$t('sections.projects.responsibilities')">
+        <Block v-if="project.responsibilities().length" :title="$t('sections.projects.responsibilities')">
           <List :items="project.responsibilities()" />
         </Block>
-        <Block :title="$t('sections.projects.infrastructure')">
+        <Block v-if="project.infrastructure().length" :title="$t('sections.projects.infrastructure')">
           <List :items="project.infrastructure()" />
         </Block>
-        <Block :title="$t('sections.projects.outcome')">
-          <List :items="project.infrastructure()" />
+        <Block v-if="project.outcome().length" :title="$t('sections.projects.outcome')">
+          <List :items="project.outcome()" />
         </Block>
         <Block :title="$t('sections.projects.stack')">
           <ul class="flex flex-wrap gap-2">

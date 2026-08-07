@@ -33,7 +33,7 @@
 <!--          Contact-->
 <!--        </a>-->
         <ThemeToggle />
-        <LanguageSelector/>
+<!--        <LanguageSelector/>-->
         <button
             type="button"
             @click="open = !open"

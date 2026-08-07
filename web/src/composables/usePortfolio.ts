@@ -86,6 +86,38 @@ export function usePortfolio() {
         { label: "Live version", href: "https://hookscope.ycode.pl" },
       ],
     },
+    {
+      id: "kpbat",
+      number: "05",
+      status: 'live',
+      name: "kpbat.com",
+      category: "Frontend · SSR · Performance",
+      stack: ["NuxtJs", "TailwindCSS", "Go", "SQLite"],
+      architecture: [],
+      decisions: () => tm(`projects.kpbat.decisions`) as string[],
+      responsibilities: () => tm(`projects.kpbat.responsibilities`) as string[],
+      infrastructure: () => tm(`projects.kpbat.infrastructure`) as string[],
+      outcome: () => tm(`projects.kpbat.outcome`) as string[],
+      links: [
+        { label: "Live version", href: "https://kpbat.com/" },
+      ],
+    },
+    {
+      id: "peknieta-szprycha",
+      number: "06",
+      status: 'live',
+      name: "Pęknięta szprycha",
+      category: "Frontend · SSR · Performance",
+      stack: ["VueJs", "TailwindCSS", "Vite"],
+      architecture: [],
+      decisions: () => [],
+      responsibilities: () => [],
+      infrastructure: () => [],
+      outcome: () => [],
+      links: [
+        { label: "Live version", href: "https://peknieta-szprycha.ycode.pl/" },
+      ],
+    },
   ]
 
   return {
@@ -103,10 +135,10 @@ export function usePortfolio() {
       availability: "Available for selected projects",
       tagline: t('profile.tagline'),
       intro: t('profile.intro'),
-      email: 'hello@wilkwiktor.code',
+      email: 'wiktor_wilk@icloud.com',
       linkedin: "https://www.linkedin.com/in/wiktor-wilk/",
       github: "https://github.com/WiktorDev",
-      whatsapp: "[YOUR WHATSAPP URL]",
+      whatsapp: "",
       heroBadges: ["Laravel", "NestJS", "Node.js", "Vue", "Nuxt", "PostgreSQL"],
       stats: [
         { value: "4+", key: 'years' },
@@ -159,8 +191,11 @@ export function usePortfolio() {
     stack: {
       backend: [
         "Laravel",
+        "PHP",
+        "OOP",
         "NestJS",
         "Node.js",
+        "TypeScript",
         "REST APIs",
         "API architecture",
         "Authentication",
@@ -171,6 +206,12 @@ export function usePortfolio() {
       frontend: [
         "Vue.js",
         "Nuxt",
+        "React",
+        "TailwindCSS",
+        "Flutter",
+        "IOS/Android",
+        "Swift",
+        "Java/Kotlin",
         "Responsive interfaces",
         "SSR",
         "Performance optimization",

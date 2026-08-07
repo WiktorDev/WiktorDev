@@ -27,6 +27,19 @@ export default function() {
       },
     },
     projects: {
+      'kpbat': {
+        description: "Landing page z prostym API dla francuskiej firmy z branży remontowo budowlanej",
+        problem: '',
+        challenge: '',
+        solution: 'Strona została napisana w NuxtJs z wykorzystaniem TailwindCSS, dodatkowo prace obejmowały utworzenie prostego API które miało za zadanie obsłużyć formularz kontaktowy oraz stronę galeria',
+        decisions: [],
+      },
+      'peknieta-szprycha': {
+        description: "Landing page dla stowarzyszenia pasjonatów motoryzacji dawnej 'Pęknięta Szprycha'",
+        problem: '',
+        challenge: '',
+        solution: 'Strona została napisana w VueJs z wykorzystaniem TailwindCSS',
+      },
       'yshop-pl': {
         description: 'Platforma SaaS dostarczająca zautomatyzowane sklepy ItemShop dla serwerów gier, umożliwiająca sprzedaż oraz natychmiastową realizację zakupów graczy przez całą dobę.',
         highlight: 'Skalowalna infrastruktura SaaS automatyzująca sprzedaż cyfrowych usług dla społeczności graczy.',
@@ -291,7 +304,7 @@ export default function() {
             summary: "Domain-driven services, clean boundaries, predictable APIs.",
           },
           frontend: {
-            title: "Frontend",
+            title: "Frontend/Mobilne",
             summary: "Interfaces that stay fast under real production data.",
           },
           databases: {
