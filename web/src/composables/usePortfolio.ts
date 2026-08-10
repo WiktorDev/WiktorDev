@@ -214,7 +214,7 @@ export function usePortfolio() {
         "Swift",
         "Java/Kotlin",
         "SSR",
-        "Performance optimization",
+        "Performance optimization"
       ],
       databases: [
         "PostgreSQL",
