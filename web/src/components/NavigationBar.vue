@@ -61,7 +61,7 @@ import {onBeforeUnmount, onMounted, ref} from "vue";
 import { Menu, X } from '@lucide/vue';
 import ThemeToggle from "./ThemeToggle.vue";
 import {usePortfolio} from "../composables/usePortfolio.ts";
-import LanguageSelector from "./LanguageSelector.vue";
+// import LanguageSelector from "./LanguageSelector.vue";
 import logo from '../assets/logo.png';
 
 const { profile, navLinks } = usePortfolio();
