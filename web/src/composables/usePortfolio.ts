@@ -46,9 +46,30 @@ export function usePortfolio() {
       ],
     },
     {
-      id: "loyaltyhub",
-      number: "03",
+      id: "tuvio",
       status: 'developing',
+      number: "03",
+      name: "Tuvio.pl",
+      category: "Backend · APIs · CRM",
+      stack: ["Laravel", "PHP", "PostgreSQL", "Nuxt", "TailwindCSS", "REST API", "Docker", "GitHub Actions"],
+      architecture: [
+        "Web App (Nuxt)",
+        "Web REST API (Laravel)",
+        "NotificationAPI (NestJs)",
+        "PostgreSQL database",
+      ],
+      decisions: () => tm(`projects.tuvio.decisions`) as string[],
+      responsibilities: () => tm(`projects.tuvio.responsibilities`) as string[],
+      infrastructure: () => tm(`projects.tuvio.infrastructure`) as string[],
+      outcome: () => tm(`projects.tuvio.outcome`) as string[],
+      links: [
+        { label: "Live project", href: "https://tuvio.pl" }
+      ],
+    },
+    {
+      id: "loyaltyhub",
+      number: "04",
+      status: 'suspended',
       name: "LoyaltyHub",
       category: "Frontend · SSR · Performance",
       stack: ["Nuxt", "Vue", "Laravel", "PostgreSQL", "PWA", "REST API", "TypeScript", "Node.js", "TailwindCSS"],
@@ -64,7 +85,7 @@ export function usePortfolio() {
     },
     {
       id: "hookscope",
-      number: "04",
+      number: "05",
       status: 'live',
       name: "HookScope",
       category: "Frontend · SSR · Performance",
@@ -88,7 +109,7 @@ export function usePortfolio() {
     },
     {
       id: "kpbat",
-      number: "05",
+      number: "06",
       status: 'live',
       name: "kpbat.com",
       category: "Frontend · SSR · Performance",
@@ -104,7 +125,7 @@ export function usePortfolio() {
     },
     {
       id: "peknieta-szprycha",
-      number: "06",
+      number: "07",
       status: 'live',
       name: "Pęknięta szprycha",
       category: "Frontend · SSR · Performance",
